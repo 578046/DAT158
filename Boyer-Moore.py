@@ -43,7 +43,7 @@ def search(txt, pat):
         if j < 0:
             
             print("Pattern occur at shift = {}".format(s))
-            print("Average comparisons for characters: " + str(c/n))
+            print("Average comparisons for characters: " + str(n/c))
             
             s += (m-badChar[ord(txt[s+m])] if s+m<n else 1)
     
@@ -55,7 +55,7 @@ def search(txt, pat):
 def main():
     
     txt = "Høgskulen på Vestlandet er en norsk statlig høgskole som ble opprettet 1. januar 2017 gjennom en sammenslåing av Høgskolen i Bergen, Høgskulen i Sogn og Fjordane og Høgskolen Stord/Haugesund."
-    pat = "ergen"
+    pat = "skulen"
 
     
     search(txt, pat)
