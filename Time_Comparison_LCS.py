@@ -46,8 +46,11 @@ def lcs(X, Y):
     return L[m][n]
 
 
-X = "babbabab"
-Y = "bbabbaaab"
+X = "We have one algorithm"
+Y = "With two different versions"
+print("Length of X string: ", len(X))
+print("Length of Y string: ", len(Y))
+
 
 """Recursive """
 startRecursive = time.time()
