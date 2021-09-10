@@ -4,7 +4,7 @@ Created on Fri Sep 10 09:09:56 2021
 
 @author: silja
 
-DAT158 Problem 8 - Compulsory exercise
+DAT158 Problem 9 b - Compulsory exercise
 Dynamic Programming implementation of Longest Common Subsequence problem
 
 """
